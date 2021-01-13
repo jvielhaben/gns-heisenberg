@@ -1,0 +1,59 @@
+name: NewPyTorchGPU
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_llvm
+  - blas=1.0=mkl
+  - ca-certificates=2020.6.20=hecda079_0
+  - certifi=2020.6.20=py38h32f6830_0
+  - cudatoolkit=10.2.89=hfd86e86_1
+  - cycler=0.10.0=py_2
+  - freetype=2.10.2=he06d7ca_0
+  - icu=67.1=he1b5a44_0
+  - kiwisolver=1.2.0=py38hbf85e49_0
+  - ld_impl_linux-64=2.34=h53a641e_5
+  - libblas=3.8.0=14_mkl
+  - libcblas=3.8.0=14_mkl
+  - libffi=3.2.1=he1b5a44_1007
+  - libgcc-ng=9.2.0=h24d8f2e_2
+  - libgfortran-ng=7.5.0=hdf63c60_6
+  - liblapack=3.8.0=14_mkl
+  - libpng=1.6.37=hed695b0_1
+  - libstdcxx-ng=9.2.0=hdf63c60_2
+  - llvm-openmp=10.0.0=hc9558a2_0
+  - matplotlib=3.2.2=1
+  - matplotlib-base=3.2.2=py38h5d868c9_1
+  - mkl=2019.5=281
+  - mkl-service=2.3.0=py38h516909a_0
+  - mkl_fft=1.1.0=py38hc1659b7_1
+  - mkl_random=1.1.0=py38h962f231_0
+  - ncurses=6.1=hf484d3e_1002
+  - ninja=1.10.0=hc9558a2_0
+  - numpy=1.18.5=py38ha1c710e_0
+  - numpy-base=1.18.5=py38hde5b4d6_0
+  - openssl=1.1.1g=h516909a_0
+  - pip=20.1.1=py_1
+  - pyparsing=2.4.7=pyh9f0ad1d_0
+  - python=3.8.3=cpython_he5300dc_0
+  - python-dateutil=2.8.1=py_0
+  - python_abi=3.8=1_cp38
+  - pytorch=1.5.1=py3.8_cuda10.2.89_cudnn7.6.5_0
+  - readline=8.0=hf8c457e_0
+  - scipy=1.5.0=py38h18bccfc_0
+  - setuptools=49.1.0=py38h32f6830_0
+  - six=1.15.0=pyh9f0ad1d_0
+  - sqlite=3.32.3=hcee41ef_0
+  - tk=8.6.10=hed695b0_0
+  - tornado=6.0.4=py38h1e0a361_1
+  - wheel=0.34.2=py_1
+  - xz=5.2.5=h516909a_0
+  - zlib=1.2.11=h516909a_1006
+  - pip:
+    - protobuf==3.12.2
+    - tensorboardx==2.1
+    - tqdm==4.47.0
+prefix: /home/johanna/anaconda3/envs/NewPyTorchGPU
+
